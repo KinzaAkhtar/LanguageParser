@@ -1,0 +1,48 @@
+point *abc*!
+nopoint *xyz*!
+
+point *def*
+pont *fgh*!
+point nopoint *gfe*!
+
+point *err!
+nopoint deu*!
+
+nopoint *c* = 2!
+
+nopoint *b*!
+
+point *cbs* = 2!
+point *cbs* = 2.0!
+point *cbs* = 2.0
+nopoint *abc* = 2.33!
+nopoint *abc* = 2!
+
+point *cbs*!
+point *dfs*!
+*cbs* = 2.0!
+*cbs* = 2!
+*dfs* = 2.0!
+*dfs* = 2!
+
+point bc
+
+run [( *i* = 1 )( *i* <= 1 )( *i*++ )] {
+}
+
+run [( *i* = 1 )( *p* <= 1 )( *i*++ )] {
+}
+run [( *i*  1 )( *p* <= 1 )( *i*++ )] {
+}
+run [( *i* = 1.0 )( *p* <= 1 )( *i*++ )] {
+}
+run [( *i*= 1.0 )( *i* < 1 )( *i*++ )] {
+}
+run [( *i*= 1.0 ( *i* <= 1 )( *i*++ )] {
+}
+run [( *i*= 1.0 )( *i* <= 1 )( *i*++ )] {
+}
+run [( *i*= 1.0 )( *i* <= 1 )( *i++ )] {
+}
+run [( *i*= 1.0 )( *i* <= 1 )( *i*+ )] {
+}
